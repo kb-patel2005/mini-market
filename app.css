@@ -1,0 +1,35 @@
+.Header{
+    display: flex;
+    justify-content: space-between;
+    padding: 2vh 3vw;
+    border: 2px solid black;
+}
+.logo{
+    width:20%;
+}
+.search{
+    width: 15%;
+}
+.cardpage{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2px;
+    justify-content: center;
+}
+.a{
+    text-decoration: none;
+    margin: 3px;
+}
+.nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 3px 5px;
+    height:30px;
+}
+.proCard:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height:37rem;
+    width: 19rem;
+    
+}
