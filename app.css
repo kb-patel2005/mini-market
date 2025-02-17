@@ -1,3 +1,6 @@
+body > iframe {
+  display: none;
+}
 .Header{
     display: flex;
     justify-content: space-between;
