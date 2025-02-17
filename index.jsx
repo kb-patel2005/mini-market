@@ -4,6 +4,11 @@ import { createBrowserRouter, RouterProvider } from "react-router"
 import App from "./App";
 import Cardspage from "./component/Cardspage";
 import CardDetail from "./component/CardDetail";
+import { stopReportingRuntimeErrors } from "react-error-overlay";
+
+if (process.env.NODE_ENV === "development") {
+  stopReportingRuntimeErrors(); // disables error overlays
+}
 
 const router = createBrowserRouter([
     {
