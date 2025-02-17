@@ -7,7 +7,7 @@ import Row from 'react-bootstrap/Row';
 export default function CardDetail() {
   const [product,setProduct]=useState([])
   
-  const id=new URLSearchParams(location.search).get('id');
+  const id=Number(new URLSearchParams(location.search).get('id'));
   useEffect(()=>{
   fetch(`https://fakestoreapi.com/products/${id}`)
   .then((res)=>res.json())
