@@ -4,9 +4,10 @@ import '../app.css';
 
 
 export default function ProductCard({id,image,title,price,description}) {
+  const nid= String(id);
   return (
   <div className='proCard p-2'>
-  <a href={`/CardDetail?id=${id}`} className='a m-2'>  
+  <a href={`/CardDetail?id=${nid}`} className='a m-2'>  
     <Card style={{width:'18rem',height:'35rem'}} className='center'>
     <Card.Img variant="top" src={image} style={{height:'300px',overflow:'hidden'}}/>
     <hr/>
