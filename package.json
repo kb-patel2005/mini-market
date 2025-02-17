@@ -3,8 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "parcel index.html"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
@@ -13,8 +12,8 @@
     "react": "^19.0.0",
     "react-bootstrap": "^2.10.9",
     "react-dom": "^19.0.0",
-    "react-router-dom": "^7.1.5",
-    "react-error-overlay": "6.0.9"
+    "react-error-overlay": "^6.0.9",
+    "react-router-dom": "^7.1.5"
   },
   "devDependencies": {
     "@parcel/transformer-sass": "^2.13.3",
